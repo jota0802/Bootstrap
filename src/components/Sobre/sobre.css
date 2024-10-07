@@ -1,0 +1,5 @@
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vw;
+}
