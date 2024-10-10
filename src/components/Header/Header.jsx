@@ -7,8 +7,8 @@ import './header.css'
 const Header = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
+      <Navbar expand="lg" className="bg-primary-subtle">
+        <Container className='container'>
           <Navbar.Brand href="#home">Big City</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

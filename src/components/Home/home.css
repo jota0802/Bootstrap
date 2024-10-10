@@ -1,6 +1,23 @@
 .jumbotron{
- background: radial-gradient(#9ca0b3, #888888);
+ background: radial-gradient(#dce3f3, #d7defa);
  margin: 6vw;
  padding: 2vw;
- border-radius: 2vw;
+ border-radius: 1vw;
+ box-shadow: 0.5vw 0.5vw 1vw #888888;
+ display: flex;
+ flex-direction: column; 
+}
+h1{
+    font-size: 3vw;
+    text-align: center;
+    padding: 1vw 0vw;
+}
+p{
+    font-size: 1.5vw;
+    text-align: center;
+}
+a{
+    width: 10vw;
+    min-width: 20%;
+    text-align: center; /*ver esse erro com o city*/
 }
